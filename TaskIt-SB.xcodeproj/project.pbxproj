@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E6468191AE98D9C005AE908 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6468181AE98D9C005AE908 /* TaskCell.swift */; };
 		9E77184C1AE3EEF500663619 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E77184B1AE3EEF500663619 /* AppDelegate.swift */; };
 		9E77184E1AE3EEF500663619 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E77184D1AE3EEF500663619 /* ViewController.swift */; };
 		9E7718511AE3EEF500663619 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E77184F1AE3EEF500663619 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9E6468181AE98D9C005AE908 /* TaskCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
 		9E7718461AE3EEF500663619 /* TaskIt-SB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TaskIt-SB.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E77184A1AE3EEF500663619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E77184B1AE3EEF500663619 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 			children = (
 				9E77184B1AE3EEF500663619 /* AppDelegate.swift */,
 				9E77184D1AE3EEF500663619 /* ViewController.swift */,
+				9E6468181AE98D9C005AE908 /* TaskCell.swift */,
 				9E77184F1AE3EEF500663619 /* Main.storyboard */,
 				9E7718521AE3EEF500663619 /* Images.xcassets */,
 				9E7718541AE3EEF500663619 /* LaunchScreen.xib */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E77184E1AE3EEF500663619 /* ViewController.swift in Sources */,
+				9E6468191AE98D9C005AE908 /* TaskCell.swift in Sources */,
 				9E77184C1AE3EEF500663619 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +415,7 @@
 				9E7718671AE3EEF500663619 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9E7718681AE3EEF500663619 /* Build configuration list for PBXNativeTarget "TaskIt-SBTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				9E77186A1AE3EEF500663619 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
