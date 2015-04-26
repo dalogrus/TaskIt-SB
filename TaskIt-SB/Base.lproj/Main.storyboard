@@ -121,6 +121,11 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="dueDatePicker" destination="hbG-JQ-w4Z" id="hes-DO-IO5"/>
+                        <outlet property="subtaskTextField" destination="Yn6-N4-Pp5" id="5mJ-JC-xcw"/>
+                        <outlet property="taskTextField" destination="x27-tk-K4O" id="vQu-az-HgE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sP5-y9-OiA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
