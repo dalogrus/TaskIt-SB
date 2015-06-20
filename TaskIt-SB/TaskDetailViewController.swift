@@ -41,6 +41,10 @@ class TaskDetailViewController: UIViewController {
         
         mainVC.taskArray[mainVC.tableView.indexPathForSelectedRow()!.row] = task
         
+        
+        //HAS TO ADD THIS LINE BECAUSE TASKS WOULD NOT UPDATE:
+        mainVC.tableView.reloadData()
+        
         self.navigationController?.popViewControllerAnimated(true)
     }
 
