@@ -34,10 +34,10 @@ class AddTaskViewController: UIViewController {
     }
     
     @IBAction func addTaskButtonTapped(sender: UIButton) {
-        var task = TaskModel(task: taskTextField.text, subTask: subtaskTextField.text, date: dueDatePicker.date)
-        println("before append", mainVC.taskArray.count)
-        mainVC?.taskArray.append(task)
-        println("after append", mainVC.taskArray.count)
+        var task = TaskModel(task: taskTextField.text, subTask: subtaskTextField.text, date: dueDatePicker.date, completed: false)
+        //println("before append", mainVC.taskArray.count)
+        mainVC?.baseArray[0].append(task)
+        //println("after append", mainVC.taskArray.count)
         mainVC.tableView.reloadData()
         self.dismissViewControllerAnimated(true, completion: nil)
     }
