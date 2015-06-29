@@ -24,13 +24,10 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         fetchedResultsController.delegate = self
         fetchedResultsController.performFetch(nil)
         
-        
-        
     }
     
     override func viewDidAppear(animated: Bool) {
-        super.viewDidAppear(animated)
-        
+        super.viewDidAppear(animated)        
        
     }
 
